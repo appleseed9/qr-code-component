@@ -1,0 +1,76 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --font-size-title: 1.5em;
+    --font-size-text: 1.1em;
+}
+
+/* figure reset */
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 4%;
+}
+
+html {
+    background: var(--light-gray);
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-size: 94%; /* 94% from default 16px equals around 15px */
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+}
+
+main {
+    margin: auto;
+    background: var(--white);
+    max-width: 320px;
+    max-height: 500px;
+    min-width: 320px;
+    padding: 1em 1.2em;
+    border-radius: 5%;
+    overflow: hidden;
+
+    box-shadow: 0 60px 30px -30px rgba(0,0,0,.1);
+}
+
+main p {
+    font-size: var(--font-size-text);
+    color: var(--grayish-blue);
+}
+
+.text-centered {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: var(--font-size-title);
+    color: var(--dark-blue);
+    margin: 0;
+}
+
+.main-content {
+    padding: .7em;
+    /* padding: 1em; */
+}
+
+.main-content h1 {
+    padding-top: .5em;
+}
+
+.main-content p {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
