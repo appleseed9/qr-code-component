@@ -5,7 +5,7 @@
     --dark-blue: hsl(218, 44%, 22%);
 
     --font-size-title: 1.5em;
-    --font-size-text: 1.1em;
+    --font-size-text: 1.05em;
 }
 
 /* figure reset */
@@ -70,7 +70,7 @@ h1 {
 }
 
 .main-content p {
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
